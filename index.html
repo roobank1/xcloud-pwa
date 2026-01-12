@@ -11,7 +11,7 @@
         content="ie=edge">
  
   <!-- Title -->
-  <title>PWA for xcloud</title>
+  <title>Xcloud</title>
  
   <!-- Meta Tags required for
        Progressive Web App -->
@@ -47,7 +47,7 @@ if (window.matchMedia('(display-mode: standalone)').matches) {
   document.getElementById('loadingicon').innerHTML = '<img src="/xcloud-pwa/icons/loading.gif" height="12%">';
   isOnline(function(res){
     if (res) {
-  location.replace("https://www.xbox.com/play");
+  location.replace("https://www.xbox.com/en-in/play");
     } else {
   location.replace("offline.html");
     }
